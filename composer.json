@@ -1,0 +1,17 @@
+{
+    "name": "doit/iot",
+    "description": "iot",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+
+    },
+    "authors": [
+        {
+            "name": "chenpeisen",
+            "email": "cps_1993@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
