@@ -4,7 +4,12 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
-
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/",
+            "Framework\\": "framework/",
+            "Libs\\": "libs/"
+        }
     },
     "authors": [
         {
@@ -13,5 +18,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
 }
