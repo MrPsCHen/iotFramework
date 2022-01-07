@@ -13,7 +13,9 @@ final class Kernel extends Process
         parent::__construct($callback, $redirect_stdin_stdout, $create_pipe);
     }
 
-    private function __clone(){}
+    private function __clone(){
+
+    }
 
     public static function getInstance($callback = null){
         if(!(self::$instance instanceof self)){

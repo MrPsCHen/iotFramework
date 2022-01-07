@@ -9,5 +9,4 @@ use Swoole\Process;
 class WorkProcess extends Process
 {
 
-
 }
